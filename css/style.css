@@ -1,0 +1,79 @@
+html{
+    background-color: rgba(197, 176, 152, 0.74);
+}
+
+#baslik{
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+   left: 42%;
+   font-weight: bold;
+   align-content: center;
+}
+#oyunekran{
+   display: inline-block;
+   position: relative;
+   height: 500px;
+   width: 500px;
+   border: 1px solid black;
+   left: 35%;
+   background-color: rgba(80, 44, 3, 0.548);
+}
+#number1{
+   position: absolute;
+   top: 40%;
+   left: 5%;
+   font-size: 300%;
+}
+#operator{
+   position: absolute;
+   top: 40%;
+   left: 15%;
+   font-size: 48px;
+}
+#number2{
+   position: absolute;
+   top: 40%;
+   left: 25%;
+   font-size: 48px;
+}
+#true{
+   display: inline-block;
+   position: absolute;
+   background-color: chartreuse;
+   height: 80px;
+   width: 80px;
+   top: 70%;
+   left: 35%;
+}
+#false{
+   display: inline-block;
+   position: absolute;
+   background-color: red;
+   height: 80px;
+   width: 80px;
+   top: 70%;
+   left: 55%;
+}
+#input{
+   position: absolute;
+   top: 40%;
+   left: 40%;
+   width: 100px;
+   height: 48px;
+   font-size: 32px;
+}
+#result{
+     position: absolute;
+     top: 40%;
+     left: 65%;
+     height: 52px;
+     width: 80px;
+}
+#truenumber{
+   text-align: center;
+   font: 48px;
+}
+#falsenumber{
+   text-align: center;
+   font-size: 32px;
+}
